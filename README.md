@@ -1,14 +1,14 @@
-EasyNotes Application
+##EasyNotes Application
 
-This is a Restful CRUD API for a simple Note-Taking application using Node.js, Express and MongoDB.
+**This is a Restful CRUD API for a simple Note-Taking application using Node.js, Express and MongoDB.**
 
-Steps to Setup
+##Steps to Setup
 
-#Install dependencies
+##Install dependencies
 
 npm install
 
-#Run Server
+##Run Server
 
 node server.js / nodemon 
 
