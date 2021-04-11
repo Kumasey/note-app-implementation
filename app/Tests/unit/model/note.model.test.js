@@ -1,4 +1,4 @@
-const Note  = require('../../../app/models/note.model');
+const Note  = require('../../../models/note.model');
 
 describe('Note model', () => {
     describe('Note Schema', () => {

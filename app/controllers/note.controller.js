@@ -1,7 +1,7 @@
 const Note = require('../models/note.model');
 
 //create and save a new note
-exports.create = (req, res) => {
+const Create = (req, res) => {
     if(!req.body.content) {
         return res.status(400).send({
             message: 'Note content cannot be empty'
@@ -24,7 +24,7 @@ exports.create = (req, res) => {
 };
 
 //Retrieve and return all notes from the database
-exports.findAll = (req, res) => {
+const FindAll = (req, res) => {
     Note.find()
     .then(notes => {
         res.send(notes);
@@ -36,7 +36,7 @@ exports.findAll = (req, res) => {
 };
 
 //find a single note with a noteId
-exports.findOne = (req, res) => {
+const FindOne = (req, res) => {
     Note.findById(req.params.noteId)
     .then(note => {
         if(!note) {
@@ -58,7 +58,7 @@ exports.findOne = (req, res) => {
 };
 
 //update a note with a noteId
-exports.update = (req, res) => {
+const Update = (req, res) => {
     if(!req.body.content){
         return res.status(400).send({
             message: 'note content cannot be empty'
@@ -88,7 +88,7 @@ exports.update = (req, res) => {
 };
 
 //detete a note with specified Id
-exports.delete = (req, res) => {
+const Delete = (req, res) => {
     Note.findByIdAndRemove(req.params.noteId)
     .then(note => {
         if(!note) {
@@ -110,3 +110,11 @@ exports.delete = (req, res) => {
         });
     });
 };
+
+module.exports = {
+    Create,
+    FindAll,
+    FindOne,
+    Update,
+    Delete
+}

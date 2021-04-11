@@ -33,13 +33,15 @@ mongoose.connect(dbConfig.url, {
     process.exit();
 });
 
+mongoose.set('useFindAndModify', false);
+
 //define a simple get route
 app.get('/', (req, res) => {
     res.json({'Message': 'Welcome to note application, enjoy your experience'});
 });
 
 //require notes routes
-require('./app/routes/note.routes.js')(app);
+require('./routes/note.routes.js')(app);
 
 //listening for requests
 

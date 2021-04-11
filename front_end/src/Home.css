@@ -1,0 +1,112 @@
+.note_home {
+    text-align: center;
+    height: 97vh;
+}
+
+.form_ > ul {
+    list-style: none;
+    padding: 0;
+  }
+
+.form {
+    margin-top: 100px;
+}
+
+.form_ {
+    height: 40vh;
+}
+
+  .form_group > input {
+    margin: 10px;
+    width: 20%;
+    height: 3vh;
+    border-radius: 10px;
+    border: 2px solid #FF8200;
+}
+
+.form-group > textarea {
+    margin: 10px;
+    width: 30%;
+    height: 20vh;
+    border-radius: 10px;
+    border: 2px solid #FF8200;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.btn > form > button {
+    background-color: #FF8200;
+    border: none;
+    padding: 0.8%;
+    color: white;
+}
+
+input:focus {
+    border: 3px solid #FF8200;
+    outline: #FF8200;
+}
+
+textarea:focus {
+    border: 3px solid #FF8200;
+    outline: #FF8200;
+}
+
+.container {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.note_edit {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.note_edit > a > button {
+    background-color: #FF8200;
+    border: none;
+    padding: 0.8%;
+    color: white;   
+    margin: 0 4px 0 0;
+}
+
+.note-details > a > button {
+    background-color: #FF8200;
+    border: none;
+    padding: 0.8%;
+    color: white;   
+    margin: 0 4px 0 0;
+}
+
+.paragraph > div {
+    margin: auto ;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.btnn > a > button {
+    background-color: #FF8200;
+    border: none;
+    padding: 0.8%;
+    color: white;   
+    margin-right: 15%;
+}
+
+.btnn > button {
+    background-color: #FF8200;
+    border: none;
+    padding: 0.8%;
+    color: white;   
+    margin-left: 15%;
+}
+
+.btnn {
+    margin-top: 50px;
+}

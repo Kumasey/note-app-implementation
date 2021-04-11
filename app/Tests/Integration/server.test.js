@@ -1,6 +1,6 @@
 const express = require('express');
 const createServer = require('../../server')
-const Post = require('../../app/models/note.model');
+const Post = require('../../models/note.model');
 const mongoose = require('mongoose');
 const supertest = require('supertest');
 const dbConfig = require('../../config/database.config');
@@ -23,7 +23,7 @@ afterEach((done) => {
 app.use(express.urlencoded({ extended: true }));
 mongoose.Promise = global.Promise;
 
-require('../../app/routes/note.routes')(app);
+require('../../routes/note.routes')(app);
 
 test("GET /notes", async () => {
   const post = await Post.create({

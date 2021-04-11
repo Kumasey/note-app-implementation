@@ -1,10 +1,20 @@
 # EasyNotes Application
 
-## This is a Restful CRUD API for a simple Note-Taking application using Node.js, Express and MongoDB.
+## This is a Restful CRUD API/Front-end for a simple Note-Taking application using Node.js, Express, React and MongoDB.
 
 ### Install dependencies
 
 npm install
+
+### Run Test
+
+$ npm run test app/Tests/Integration/ (for integration testing)
+
+$ npm run test app/Tests/unit/ (for unit testing)
+
+Or
+
+npm run test (to run both tests)
 
 ### Run Server
 
