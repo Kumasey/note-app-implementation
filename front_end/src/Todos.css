@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+.todo-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    padding: 4em;
+}
+
+.todo {
+    background-color: salmon;
+    color: white;
+}
+
+.select {
+    text-align: center;
+}
+
+.pagination {
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .todo-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .todo-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .todo-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .todo-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

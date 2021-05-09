@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# The following endpoints are available for the front-end experience
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+localhost:3000 (for note app)
+
+localhost:3000/user-data (for random user API consumption)
+
+localhost:3000/todos (for todos API consumption)
 
 ## Available Scripts
 

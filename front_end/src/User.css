@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.users-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    padding: 4em;
+    text-align: center;
+    justify-self: center;
+}
+
+.select {
+    text-align: center;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.laoding-container {
+  text-align: center;
+}
+
+.user {
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 500px) {
+    .users-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .users-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .users-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .users-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.pagination button {
+    border: 0;
+    outline: 0;
+    padding: 0.6em 3em;
+    border-radius: 5px;
+}
+
+.pagination .next {
+    margin-left: 3em;
+    background: #3be73b;
+    color: white;
+}
+
+.pagination .previous {
+    background: #3b69e7;
+    color: white;
+}
+
+.pagination button:disabled {
+    background:#e6f3d8;
+    cursor: not-allowed;
+}
