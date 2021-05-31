@@ -1,0 +1,89 @@
+{
+    "sync.gist": "6b01f0bff6affe871040b7e33ad39e28",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "eslint.packageManager": "yarn",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "tslint.packageManager": "yarn",
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.filtering.ignoreGitSubmodules": true,
+    "todo-tree.general.statusBar": "current file",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "@TODO"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue-html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.singleQuote": true,
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "clipboard-manager.saveTo": "",
+    "json.schemas": [
+    
+    ],
+    "window.zoomLevel": 0,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "settingsSync.ignoredSettings": [
+    
+    ],
+    "emmet.preferences": {
+    
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.excludeLanguages": [
+
+
+        "markdown"
+    ],
+    "yaml.schemas": {
+        "file:///c%3A/Users/LENOVO/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+        {
+            "id": "ca7abf04-89da-4a32-89c6-52e435dc8b0d",
+            "enabled": true,
+            "name": "My mdochealthcare Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "2de016a9-137b-40b0-8018-4adbe078ecff",
+            "monitor": true
+        }
+    ],
+    "php.validate.executablePath": "",
+    "redhat.telemetry.enabled": true
+}

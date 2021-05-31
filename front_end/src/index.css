@@ -21,7 +21,7 @@
     height: 80px;
   }
   .lds-spinner div {
-    transform-origin: 40px 40px;
+    transform-origin: 40px 35px;
     animation: lds-spinner 1.2s linear infinite;
   }
   .lds-spinner div:after {
@@ -30,10 +30,10 @@
     position: absolute;
     top: 3px;
     left: 37px;
-    width: 6px;
+    width: 4px;
     height: 18px;
     border-radius: 20%;
-    background: #807373;
+    background: #a09292;
   }
 
    .lds-spinner div:nth-child(1) {

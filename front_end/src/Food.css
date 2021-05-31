@@ -1,0 +1,61 @@
+h2 {
+  text-align: center;
+}
+.food-cont {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1em;
+  padding: 3em;
+}
+
+.food-cont > a > div {
+  text-align: center;
+  border: 3px solid #978484;
+  border-radius: 5px;
+}
+
+.food-cont > a > div > img {
+  width: 100%;
+  height: 250px;
+}
+
+.loading {
+  text-align: center;
+}
+
+.container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.detail-cont {
+  width: 40%;
+  background-color: #073f07;
+  color: white;
+  display: flex;
+}
+
+.more-details {
+  padding: 1em;
+  width: 60%;
+}
+
+.img-cont {
+  /* object-fit: contain; */
+  margin-right: 1em;
+  padding: 1em;
+  width: 40%;
+  height: 35vh;
+}
+
+.img-cont > img {
+  width: 100%;
+  height: 100%;
+}
+
+.more-details > p > span {
+  color: red;
+}
